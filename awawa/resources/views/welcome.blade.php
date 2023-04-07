@@ -5,6 +5,23 @@
 @section('content')
     
 
+@foreach ($events as $event)
+    <p>{{ $event->title }}  -- {{ $event->description }}  </p>
+@endforeach
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- 
         <h1>Miau...</h1>
 
         <img src="/img/ryobaixo.jpg" alt="ryo">
@@ -36,7 +53,7 @@
         
 
 
-        
+         --}}
 
 
         <!-- Comentario do HTML -->
